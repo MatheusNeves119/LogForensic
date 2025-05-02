@@ -1,0 +1,475 @@
+POWER MANAGER (dumpsys power)
+
+Power Manager State:
+  Settings power_manager_constants:
+    no_cached_wake_locks=true
+  mDirty=0x0
+  getWakefulnessLocked()=Awake
+  mWakefulnessChanging=false
+  mIsPowered=true
+  mPlugType=1
+  mBatteryLevel=100
+  mBatteryLevelWhenDreamStarted=100
+  mDockState=0
+  mStayOn=true
+  mProximityPositive=false
+  mBootCompleted=true
+  mSystemReady=true
+  mHalAutoSuspendModeEnabled=false
+  mHalInteractiveModeEnabled=true
+  mWakeLockSummary=0x0
+  mNotifyLongScheduled=+18s444ms
+  mNotifyLongDispatched=-41s556ms
+  mNotifyLongNextCheck=+18s444ms
+  mUserActivitySummary=0x4
+  mRequestWaitForNegativeProximity=false
+  mSandmanScheduled=false
+  mSandmanSummoned=false
+  mBatteryLevelLow=false
+  mLightDeviceIdleMode=false
+  mDeviceIdleMode=false
+  mDeviceIdleWhitelist=[1000, 1001, 2000, 5003, 5004, 5005, 5006, 5007, 5010, 5012, 5025, 5027, 10055, 10060, 10062, 10063, 10064, 10067, 10069, 10072, 10074, 10083, 10086, 10089, 10091, 10098, 10103, 10104, 10108, 10109, 10131, 10145, 10146, 10157, 10159, 10160, 10174, 10197, 10222, 10269, 10272, 10275, 10291]
+  mDeviceIdleTempWhitelist=[]
+  mLastWakeTime=15108325 (1601899 ms ago)
+  mLastSleepTime=15106512 (1603712 ms ago)
+  mLastSleepReason=power_button
+  mLastUserActivityTime=15459759 (1250465 ms ago)
+  mLastUserActivityTimeNoChangeLights=15108523 (1601701 ms ago)
+  mLastInteractivePowerHintTime=15459759 (1250465 ms ago)
+  mLastScreenBrightnessBoostTime=0 (16710224 ms ago)
+  mScreenBrightnessBoostInProgress=false
+  mDisplayReady=true
+  mDisplayReadyByProximity=true
+  mHoldingWakeLockSuspendBlocker=false
+  mHoldingDisplaySuspendBlocker=true
+
+Settings and Configuration:
+  mDecoupleHalAutoSuspendModeFromDisplayConfig=true
+  mDecoupleHalInteractiveModeFromDisplayConfig=true
+  mWakeUpWhenPluggedOrUnpluggedConfig=true
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mTheaterModeEnabled=false
+  mSuspendWhenScreenOffDueToProximityConfig=true
+  mDreamsSupportedConfig=true
+  mDreamsEnabledByDefaultConfig=false
+  mDreamsActivatedOnSleepByDefaultConfig=false
+  mDreamsActivatedOnDockByDefaultConfig=true
+  mDreamsEnabledOnBatteryConfig=false
+  mDreamsBatteryLevelMinimumWhenPoweredConfig=-1
+  mDreamsBatteryLevelMinimumWhenNotPoweredConfig=15
+  mDreamsBatteryLevelDrainCutoffConfig=5
+  mDreamsEnabledSetting=false
+  mDreamsActivateOnSleepSetting=true
+  mDreamsActivateOnDockSetting=false
+  mDozeAfterScreenOff=true
+  mMinimumScreenOffTimeoutConfig=3000
+  mMaximumScreenDimDurationConfig=20000
+  mMaximumScreenDimRatioConfig=0.333
+  mAttentiveTimeoutConfig=-1
+  mAttentiveTimeoutSetting=-1
+  mAttentiveWarningDurationConfig=30000
+  mScreenOffTimeoutSetting=15000
+  mSleepTimeoutSetting=-1
+  mMaximumScreenOffTimeoutFromDeviceAdmin=9223372036854775807 (enforced=false)
+  mStayOnWhilePluggedInSetting=7
+  mScreenBrightnessModeSetting=0
+  mScreenBrightnessOverrideFromWindowManager=NaN
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mUserActivityTimeoutForDexOverrideFromWindowManager=-1
+  mLastUserActivityTimeForDex=0
+  mUserInactiveOverrideFromWindowManager=false
+  mDozeScreenStateOverrideFromDreamManager=1
+  mDrawWakeLockOverrideFromSidekick=false
+  mDozeScreenBrightnessOverrideFromDreamManager=-1
+  mScreenBrightnessMinimum=0.039215688
+  mScreenBrightnessMaximum=1.0
+  mScreenBrightnessDefault=0.4
+  mScreenBrightnessSettingMinimumFloat=0.039215688
+  mScreenBrightnessSettingMaximumFloat=1.0
+  mScreenBrightnessSettingDefaultFloat=0.4
+  mDoubleTapWakeEnabled=false
+  mIsVrModeEnabled=false
+  mForegroundProfile=0
+  mUserId=0
+  mLastWakeUpReason: 0
+  mOutdoorModeSetting: false
+  mAutoBrightnessLowerLimit=-1
+  mAutoBrightnessUpperLimit=-1
+  mAutoBrightnessLimitLastCaller=
+  mLastAutoBrightnessLimitTime=0
+  mIsSupportedLightSensor: true
+  SEC_FEATURE_USE_GED_DOZE: false
+  SEC_FEATURE_SEAMLESS_AOD: false
+  SEC_FEATURE_WA_WAITING_AOD_WHEN_WAKINGUP_FROM_DOZE: false
+  SEC_FEATURE_WAKEUP_WHEN_PLUG_CHANGED: false
+  SEC_FEATURE_AOD_LOOK_CHARGING_UI: true
+  mAodMode: false
+  mShouldWaitForTransitionToAodUi: false
+  SEC_FEATURE_DEX_DUAL_VIEW: false
+
+Attentive timeout: -1 ms
+Sleep timeout: -1 ms
+Screen off timeout: 15000 ms
+Screen dim duration: 4995 ms
+Screen dim duration override: -1 ms
+SQD Screen dim duration override: -1 ms
+Screen off timeout for DeX: 600000 ms
+
+Wakelock Blacklist App id: size=0
+
+UID states (changing=false changed=false):
+  UID 1000:   ACTIVE  count=0 state=0
+  UID 1001:   ACTIVE  count=0 state=0
+  UID 1002:   ACTIVE  count=0 state=0
+  UID 1068:   ACTIVE  count=0 state=0
+  UID 1073:   ACTIVE  count=0 state=0
+  UID 5004: INACTIVE  count=0 state=19
+  UID 5009: INACTIVE  count=0 state=19
+  UID 5023: INACTIVE  count=0 state=19
+  UID 5025: INACTIVE  count=0 state=10
+  UID u0a52: INACTIVE  count=0 state=19
+  UID u0a55: INACTIVE  count=0 state=15
+  UID u0a57:   ACTIVE  count=0 state=5
+  UID u0a59:   ACTIVE  count=0 state=0
+  UID u0a64: INACTIVE  count=0 state=10
+  UID u0a65: INACTIVE  count=0 state=19
+  UID u0a66:   ACTIVE  count=0 state=2
+  UID u0a67: INACTIVE  count=0 state=10
+  UID u0a69: INACTIVE  count=0 state=19
+  UID u0a72: INACTIVE  count=0 state=10
+  UID u0a99: INACTIVE  count=0 state=18
+  UID u0a104: INACTIVE  count=0 state=19
+  UID u0a107: INACTIVE  count=0 state=19
+  UID u0a135: INACTIVE  count=0 state=18
+  UID u0a149: INACTIVE  count=0 state=19
+  UID u0a165: INACTIVE  count=0 state=19
+  UID u0a169: INACTIVE  count=0 state=19
+  UID u0a174:   ACTIVE  count=0 state=5
+  UID u0a175:   ACTIVE  count=0 state=3
+  UID u0a176: INACTIVE  count=0 state=19
+  UID u0a182: INACTIVE  count=0 state=19
+  UID u0a185: INACTIVE  count=0 state=19
+  UID u0a193: INACTIVE  count=0 state=18
+  UID u0a194: INACTIVE  count=0 state=18
+  UID u0a212: INACTIVE  count=0 state=18
+  UID u0a222: INACTIVE  count=0 state=10
+  UID u0a223: INACTIVE  count=0 state=18
+  UID u0a232: INACTIVE  count=0 state=18
+  UID u0a279:   ACTIVE  count=0 state=7
+  UID u0a286:   ACTIVE  count=0 state=0
+  UID u0a291: INACTIVE  count=0 state=19
+  UID u0a294:   ACTIVE  count=0 state=0
+  UID u0a304: INACTIVE  count=0 state=19
+  UID u0a322: INACTIVE  count=0 state=19
+  UID u0a324: INACTIVE  count=0 state=18
+  UID u0ai0: INACTIVE  count=0 state=19
+
+InputDeviceLightState:
+  mTouchKeyOffTimeoutSetting: 1500
+  mIsSipVisible: false
+  mTouchKeyForceDisable: false
+  mTouchKeyForceDisableOverrideFromSystemPowerSaveMode: false
+  mInputDeviceEnabled: true
+  mIsFolderType: false
+
+Looper state:
+  Looper (PowerManagerService, tid 50) {50a7246}
+    Message 0: { when=+781ms what=1 target=com.android.server.display.AutomaticBrightnessController$AutomaticBrightnessHandler }
+    Message 1: { when=+18s444ms what=4 target=android.os.Handler }
+    Message 2: { when=+59s564ms callback=com.android.server.power.PowerManagerService$20 target=android.os.Handler }
+    (Total messages: 3, polling=true, quitting=false)
+Clear Cover:
+  mIsCoverClosed: false
+  mlastUpdateCoverStateReason: isCoverClosedBySysfs called on closed = false
+  mlastUpdateCoverStateTime: = -1 (16710225 ms ago)
+  mFeatureCoverSysfs: true
+  mCoverType: 2 at -1 (16710225 ms ago)
+  mlastUpdateCoverTypeReason: 
+  mScreenBrightnessForClearCoverConfig=NaN
+  mBrightnessLimitByCoverConfig: -1
+Master Brightness Limit:
+  mMasterBrightnessLowerLimit: -1
+  mMasterBrightnessUpperLimit: -1
+  mMasterBrightnessLimitLastCaller: 
+  mMasterBrightnessLimitPeriod: 0
+  mMasterBrightnessLimitRunning: false
+  mLastRequestedLimitationOfBrightness: 447
+  mTargetBrightnessForLimit : 0
+
+FTA mode: false
+SEC_USE_FACTORY_BINARY: false
+
+Wake Locks: size=0
+
+Wake Locks History: size=1
+  11-15 19:35:19.277 (ElapsedTime: 224936ms)  SCREEN_BRIGHT_WAKE_LOCK        'WindowManager' ON_AFTER_RELEASE (uid=1000 pid=1760 pkg=android ws=WorkSource{10324})   android.os.Binder@b743ffe 
+
+Suspend Blockers: size=4
+  PowerManagerService.WakeLocks: ref count=0
+  PowerManagerService.Display: ref count=1
+  PowerManagerService.Broadcasts: ref count=0
+  PowerManagerService.WirelessChargerDetector: ref count=0
+
+Display Power: state=ON
+
+mFreezingScreenBrightness: false
+
+WakeUp History size: 48
+ [1]   11-15 18:35:52.154 1000  OFF timeout                                             com.sec.android.app.launcher  
+ [2]   11-15 18:35:56.839 10059 ON  WAKE_REASON_FINGERPRINT                             com.sec.android.app.launcher  
+ [3]   11-15 19:16:25.686 1000  OFF timeout                                             br.com.bb.android             
+ [4]   11-15 19:16:28.041 10059 ON  WAKE_REASON_FINGERPRINT                             br.com.bb.android             
+ [5]   11-15 19:16:49.223 1000  OFF timeout                                             br.com.bb.android             
+ [6]   11-15 19:16:50.869 10059 ON  WAKE_REASON_FINGERPRINT                             br.com.bb.android             
+ [7]   11-15 19:17:40.017 1000  OFF timeout                                             com.santander.app             
+ [8]   11-15 19:17:49.733 10059 ON  WAKE_REASON_FINGERPRINT                             com.santander.app             
+ [9]   11-15 19:25:03.319 1000  OFF timeout                                             com.whatsapp                  
+ [10]  11-15 19:25:44.301 1000  ON  WAKE_REASON_POWER_BUTTON                            com.whatsapp                  
+ [11]  11-15 19:44:02.790 1000  OFF timeout                                             com.sec.android.app.launcher  
+ [12]  11-15 19:49:03.906 10059 ON  WAKE_REASON_FINGERPRINT                             com.sec.android.app.launcher  
+ [13]  11-15 20:38:05.816 1000  OFF timeout                                             com.sec.android.app.launcher  
+ [14]  11-15 20:55:59.151 10059 ON  WAKE_REASON_FINGERPRINT                             com.sec.android.app.launcher  
+ [15]  11-15 20:57:20.036 1000  OFF timeout                                             com.sec.android.app.launcher  
+ [16]  11-15 20:58:36.548 10059 ON  WAKE_REASON_FINGERPRINT                             com.sec.android.app.launcher  
+ [17]  11-15 20:59:10.773 1000  OFF timeout                                             com.microsoft.office.outlook  
+ [18]  11-15 20:59:46.924 1000  ON  WAKE_REASON_DOUBLE_TAP                              com.microsoft.office.outlook  
+ [19]  11-15 20:59:53.892 1000  OFF timeout                                             com.microsoft.office.outlook  
+ [20]  11-15 21:01:07.531 10059 ON  WAKE_REASON_FINGERPRINT                             com.microsoft.office.outlook  
+ [21]  11-15 21:01:26.729 1000  OFF timeout                                             com.sec.android.app.launcher  
+ [22]  11-15 21:04:08.565 10059 ON  WAKE_REASON_FINGERPRINT                             com.sec.android.app.launcher  
+ [23]  11-15 21:05:12.670 1000  OFF timeout                                             com.sec.android.app.launcher  
+ [24]  11-15 21:08:32.060 1000  ON  WAKE_REASON_DOUBLE_TAP                              com.sec.android.app.launcher  
+ [25]  11-15 21:08:38.358 1000  OFF timeout                                             com.sec.android.app.launcher  
+ [26]  11-15 21:08:50.607 10059 ON  WAKE_REASON_FINGERPRINT                             com.sec.android.app.launcher  
+ [27]  11-15 21:28:19.391 1000  OFF power_button                                        com.sec.android.app.launcher  
+ [28]  11-15 21:28:21.984 10059 ON  WAKE_REASON_FINGERPRINT                             com.sec.android.app.launcher  
+ [29]  11-15 23:07:13.208 1000  OFF power_button                                        com.samsung.android.messaging 
+ [30]  11-15 23:07:15.029 1000  ON  WAKE_REASON_POWER_BUTTON                            com.samsung.android.messaging 
+ [31]  11-15 23:08:29.970 1000  OFF power_button                                        com.sec.android.app.launcher  
+ [32]  11-15 23:08:32.711 1000  ON  WAKE_REASON_POWER_BUTTON                            com.sec.android.app.launcher  
+ [33]  11-15 23:08:34.090 1000  OFF power_button                                        com.sec.android.app.launcher  
+ [34]  11-15 23:08:37.965 1000  ON  WAKE_REASON_POWER_BUTTON                            com.sec.android.app.launcher  
+ [35]  11-15 23:10:14.690 1000  OFF power_button                                        com.sec.android.app.launcher  
+ [36]  11-15 23:10:17.417 1000  ON  WAKE_REASON_POWER_BUTTON                            com.sec.android.app.launcher  
+ [37]  11-15 23:10:21.020 1000  OFF power_button                                        com.sec.android.app.launcher  
+ [38]  11-15 23:10:21.654 1000  ON  WAKE_REASON_POWER_BUTTON                            com.sec.android.app.launcher  
+ [39]  11-15 23:11:06.651 1000  OFF power_button                                        com.sec.android.app.launcher  
+ [40]  11-15 23:11:07.420 1000  ON  WAKE_REASON_POWER_BUTTON                            com.sec.android.app.launcher  
+ [41]  11-15 23:11:14.760 1000  OFF power_button                                        com.sec.android.app.launcher  
+ [42]  11-15 23:11:15.559 1000  ON  WAKE_REASON_POWER_BUTTON                            com.sec.android.app.launcher  
+ [43]  11-15 23:11:33.454 1000  OFF power_button                                        com.sec.android.app.launcher  
+ [44]  11-15 23:11:34.304 1000  ON  WAKE_REASON_POWER_BUTTON                            com.sec.android.app.launcher  
+ [45]  11-15 23:11:41.354 1000  OFF power_button                                        com.sec.android.app.launcher  
+ [46]  11-15 23:11:43.680 1000  ON  WAKE_REASON_POWER_BUTTON                            com.sec.android.app.launcher  
+ [47]  11-15 23:11:54.776 1000  OFF power_button                                        com.sec.android.app.launcher  
+ [48]  11-15 23:11:56.317 1000  ON  WAKE_REASON_POWER_BUTTON                            com.sec.android.app.launcher  
+
+AutoBrightness History size: 34
+ [1]   11-15 18:35:09.839 ShortTermModel: reset data, change configuration
+ [2]   11-15 18:35:10.174 updateAutoBrightness :  10(0.02)     -1 <      2.0 <     11 (adj:+0.0)
+ [3]   11-15 18:35:57.109 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [4]   11-15 19:16:03.727 updateAutoBrightness :  13(0.05)      0 <      6.9 <     36 (adj:+0.0)
+ [5]   11-15 19:16:14.809 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0)
+ [6]   11-15 19:16:16.315 updateAutoBrightness :  15(0.06)      0 <      7.9 <     46 (adj:+0.0)
+ [7]   11-15 19:16:28.395 updateAutoBrightness :  10(0.02)     -1 <      1.0 <      8 (adj:+0.0) (1st)
+ [8]   11-15 19:16:33.694 updateAutoBrightness :  15(0.06)      0 <      8.1 <     48 (adj:+0.0)
+ [9]   11-15 19:16:51.222 updateAutoBrightness :  10(0.02)     -1 <      1.0 <      8 (adj:+0.0) (1st)
+ [10]  11-15 19:17:49.970 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [11]  11-15 19:18:39.822 updateAutoBrightness :  16(0.06)      0 <      8.9 <     55 (adj:+0.0)
+ [12]  11-15 19:18:58.716 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0)
+ [13]  11-15 19:24:38.094 updateAutoBrightness :  21(0.08)      0 <     11.5 <     79 (adj:+0.0)
+ [14]  11-15 19:25:44.581 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [15]  11-15 19:49:04.359 updateAutoBrightness :  10(0.02)     -1 <      1.0 <      8 (adj:+0.0) (1st)
+ [16]  11-15 20:55:59.515 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [17]  11-15 20:58:36.912 updateAutoBrightness :  18(0.07)      0 <     10.0 <     65 (adj:+0.0) (1st)
+ [18]  11-15 20:59:10.490 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0)
+ [19]  11-15 20:59:47.113 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [20]  11-15 21:01:07.894 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [21]  11-15 21:04:08.940 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [22]  11-15 21:08:32.332 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [23]  11-15 21:08:50.874 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [24]  11-15 21:28:22.367 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [25]  11-15 23:07:15.408 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [26]  11-15 23:08:32.951 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [27]  11-15 23:08:38.189 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [28]  11-15 23:10:17.619 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [29]  11-15 23:10:21.982 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [30]  11-15 23:11:07.711 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [31]  11-15 23:11:15.848 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [32]  11-15 23:11:34.505 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [33]  11-15 23:11:43.893 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+ [34]  11-15 23:11:56.516 updateAutoBrightness :  10(0.01)     -1 <      0.0 <      5 (adj:+0.0) (1st)
+
+Brightness ChangeReason History size: 2
+ [1]   11-15 18:35:09.849 getFinalBrightness : 102 (0.40) -> 102 (0.40), 'Override'
+ [2]   11-15 18:35:21.213 getFinalBrightness : 255 (1.00) -> 255 (1.00)
+
+Battery saving stats:
+  Battery Saver is currently: ON
+    Last ON time: 2022-11-15 21:08:44.748 -2h29m53s474ms
+    Last OFF time: 2022-11-15 20:37:14.097 -3h1m24s125ms
+    Times enabled: 4
+
+  Drain stats:
+                     Battery saver OFF                          ON
+  NonDoze NonIntr:      8m      0mAh(  1%)      0,0mAh/h          0m      0mAh(  0%)      0,0mAh/h
+             Intr:     26m    121mAh(  4%)    275,6mAh/h          0m      0mAh(  0%)      0,0mAh/h
+  Deep    NonIntr:      0m      0mAh(  0%)      0,0mAh/h          0m      0mAh(  0%)      0,0mAh/h
+             Intr:      0m      0mAh(  0%)      0,0mAh/h          0m      0mAh(  0%)      0,0mAh/h
+  Light   NonIntr:     24m      0mAh(  0%)      0,0mAh/h          0m      0mAh(  0%)      0,0mAh/h
+             Intr:      0m      0mAh(  0%)      0,0mAh/h          0m      0mAh(  0%)      0,0mAh/h
+
+Battery saver policy (*NOTE* they only apply when battery saver is ON):
+  Settings: battery_saver_constants
+    value: 
+  Settings: (overlay)
+    value: 
+  Adaptive Settings: battery_saver_adaptive_constants
+    value: 
+  Adaptive Device Specific Settings: battery_saver_adaptive_device_specific_constants
+    value: 
+  mAccessibilityEnabled=false
+  mCarModeEnabled=false
+  mPolicyLevel=0
+
+  Policy 'full'
+    advertise_is_enabled=true
+    vibration_disabled=true
+    animation_disabled=false
+    fullbackup_deferred=true
+    keyvaluebackup_deferred=true
+    firewall_disabled=false
+    datasaver_disabled=true
+    launch_boost_disabled=true
+    adjust_brightness_disabled=true
+    adjust_brightness_factor=0.5
+    gps_mode=1
+    force_all_apps_standby=true
+    force_background_check=true
+    optional_sensors_disabled=true
+    aod_disabled=true
+    soundtrigger_disabled=true
+    quick_doze_enabled=true
+    enable_night_mode=false
+    Interactive File values:
+
+    Noninteractive File values:
+
+  Policy 'default adaptive'
+    advertise_is_enabled=false
+    vibration_disabled=false
+    animation_disabled=false
+    fullbackup_deferred=false
+    keyvaluebackup_deferred=false
+    firewall_disabled=true
+    datasaver_disabled=true
+    launch_boost_disabled=false
+    adjust_brightness_disabled=true
+    adjust_brightness_factor=1.0
+    gps_mode=0
+    force_all_apps_standby=false
+    force_background_check=false
+    optional_sensors_disabled=false
+    aod_disabled=false
+    soundtrigger_disabled=false
+    quick_doze_enabled=false
+    enable_night_mode=false
+    Interactive File values:
+
+    Noninteractive File values:
+
+  Policy 'current adaptive'
+    advertise_is_enabled=false
+    vibration_disabled=false
+    animation_disabled=false
+    fullbackup_deferred=false
+    keyvaluebackup_deferred=false
+    firewall_disabled=true
+    datasaver_disabled=true
+    launch_boost_disabled=false
+    adjust_brightness_disabled=true
+    adjust_brightness_factor=1.0
+    gps_mode=0
+    force_all_apps_standby=false
+    force_background_check=false
+    optional_sensors_disabled=false
+    aod_disabled=false
+    soundtrigger_disabled=false
+    quick_doze_enabled=false
+    enable_night_mode=false
+    Interactive File values:
+
+    Noninteractive File values:
+
+  Policy 'effective'
+    advertise_is_enabled=false
+    vibration_disabled=false
+    animation_disabled=false
+    fullbackup_deferred=false
+    keyvaluebackup_deferred=false
+    firewall_disabled=true
+    datasaver_disabled=true
+    launch_boost_disabled=false
+    adjust_brightness_disabled=true
+    adjust_brightness_factor=1.0
+    gps_mode=0
+    force_all_apps_standby=false
+    force_background_check=false
+    optional_sensors_disabled=false
+    aod_disabled=false
+    soundtrigger_disabled=false
+    quick_doze_enabled=false
+    enable_night_mode=false
+    Interactive File values:
+
+    Noninteractive File values:
+
+Battery saver state machine:
+  Enabled=false
+    full=false
+    adaptive=false
+  mState=1
+  mLastChangedIntReason=0
+  mLastChangedStrReason=null
+  mBootCompleted=true
+  mSettingsLoaded=true
+  mBatteryStatusSet=true
+  mIsPowered=true
+  mBatteryLevel=100
+  mIsBatteryLevelLow=false
+  mSettingAutomaticBatterySaver=0
+  mSettingBatterySaverEnabled=false
+  mSettingBatterySaverEnabledSticky=false
+  mSettingBatterySaverStickyAutoDisableEnabled=true
+  mSettingBatterySaverStickyAutoDisableThreshold=90
+  mSettingBatterySaverTriggerThreshold=0
+  mBatterySaverStickyBehaviourDisabled=false
+  mDynamicPowerSavingsDefaultDisableThreshold=80
+  mDynamicPowerSavingsDisableThreshold=80
+  mDynamicPowerSavingsEnableBatterySaver=false
+  mLastAdaptiveBatterySaverChangedExternallyElapsed=0
+AttentionDetector:
+ mIsSettingEnabled=false
+ mMaximumExtensionMillis=330000
+ postDimCheckDurationMillis=0
+ mLastUserActivityTime(excludingAttention)=15459759
+ mAttentionServiceSupported=false
+ mRequested=false
+
+Profile power states: size=0
+
+Wireless Charger Detector State:
+  mGravitySensor=null
+  mPoweredWirelessly=false
+  mAtRest=false
+  mRestX=0.0, mRestY=0.0, mRestZ=0.0
+  mDetectionInProgress=false
+  mDetectionStartTime=0 (never)
+  mMustUpdateRestPosition=false
+  mTotalSamples=0
+  mMovingSamples=0
+  mFirstSampleX=0.0, mFirstSampleY=0.0, mFirstSampleZ=0.0
+  mLastSampleX=0.0, mLastSampleY=0.0, mLastSampleZ=0.0
+AmbientDisplaySuppressionController:
+ ambientDisplaySuppressed=false
+ mSuppressionTokens={}

@@ -1,0 +1,31 @@
+{"service":"Fingerprint Manager","prints":[{"id":0,"count":1,"accept":15,"reject":1,"quality":0,"acquire":68,"lockout":0,"permanentLockout":0,"acceptCrypto":0,"rejectCrypto":0,"qualityCrypto":0,"acquireCrypto":1,"lockoutCrypto":0,"permanentLockoutCrypto":0}]}
+HAL deaths since last reboot: 0
+ latest sensor status : 0
+ current User : 0
+ Max Template : 3
+ C :127070
+ NAVI = false
+ SL : 1
+Enroll: E, com.samsung.android.biometrics.app.setting, 11/15 19:27:16.467, 11/15 19:27:52.784, 0, 0, 0, S
+Remove: R, client, 11/15 19:27:06.740, 11/15 19:27:06.740, 0, -1, 0, null
+A, com.android.systemui, 11/15 18:35:19.201, 11/15 18:35:27.705, 0, 5, 0, U
+A, com.android.systemui, 11/15 18:35:52.496, 11/15 18:35:56.771, 133, 0, 0, M
+A, com.android.systemui, 11/15 19:16:25.890, 11/15 19:16:28.025, 114, 0, 0, M
+A, br.com.bb.android, 11/15 19:16:34.839, 11/15 19:16:36.924, 137, 0, 0, M
+A, com.android.systemui, 11/15 19:16:49.306, 11/15 19:16:50.860, 116, 0, 0, M
+A, com.android.systemui, 11/15 19:17:40.093, 11/15 19:17:49.721, 257, 0, 0, M
+AP, com.santander.app, 11/15 19:17:55.368, 11/15 19:17:57.510, 0, 5, 0, U
+A, com.android.systemui, 11/15 19:25:03.451, 11/15 19:25:41.875, 867, 1, 0, N
+A, com.android.systemui, 11/15 19:25:03.451, 11/15 19:25:45.044, 110, 1, 0, M
+R, client, 11/15 19:27:06.740, 11/15 19:27:06.740, 0, -1, 0, null
+E, com.samsung.android.biometrics.app.setting, 11/15 19:27:16.467, 11/15 19:27:52.784, 0, 0, 0, S
+AP, br.jus.tse.eleitoral.etitulo, 11/15 19:39:34.902, 11/15 19:39:37.867, 130, 0, 0, M
+AP, br.com.serasaexperian.consumidor, 11/15 19:41:24.314, 11/15 19:41:25.749, 211, 0, 0, M
+A, com.android.systemui, 11/15 19:44:02.932, 11/15 19:49:03.894, 118, 0, 0, M
+A, com.android.systemui, 11/15 20:38:06.016, 11/15 20:55:59.137, 193, 0, 0, M
+A, com.android.systemui, 11/15 20:57:20.165, 11/15 20:58:36.533, 127, 0, 0, M
+A, com.android.systemui, 11/15 20:59:10.893, 11/15 21:01:07.520, 120, 0, 0, M
+A, com.android.systemui, 11/15 21:01:26.807, 11/15 21:04:08.557, 116, 0, 0, M
+A, com.android.systemui, 11/15 21:05:12.747, 11/15 21:08:50.561, 113, 0, 0, M
+A, com.android.systemui, 11/15 21:28:19.496, 11/15 21:28:21.975, 264, 0, 0, M
+

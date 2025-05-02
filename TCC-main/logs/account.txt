@@ -1,0 +1,85 @@
+User UserInfo{0:Jorge Ramos de Figueiredo:c13}:
+  
+  AccountId, Action_Type, timestamp, UID, TableName, Key
+  Accounts History
+  -1,action_called_account_remove,2020-07-03 12:53:38,10180,accounts,0
+  -1,action_called_account_add,2020-09-27 19:57:39,10169,accounts,1
+  1,action_account_add,2020-09-27 19:58:29,10174,accounts,2
+  1,action_set_password,2020-09-27 19:58:29,10174,accounts,3
+  2,action_account_add,2020-09-27 20:03:30,10104,accounts,4
+  -1,action_called_account_remove,2020-09-27 20:05:16,10180,accounts,5
+  3,action_account_add,2020-09-27 20:19:24,10196,accounts,6
+  4,action_account_add,2020-09-27 20:32:13,10180,accounts,7
+  5,action_account_add,2020-09-27 20:36:30,10213,accounts,8
+  6,action_account_add,2020-09-27 21:41:23,10231,accounts,9
+  -1,action_called_account_remove,2020-09-27 21:47:17,10216,accounts,10
+  7,action_account_add,2020-09-27 21:47:17,10216,accounts,11
+  7,action_called_account_remove,2020-09-27 21:47:17,10216,accounts,12
+  7,action_account_remove,2020-09-27 21:47:17,1000,accounts,13
+  8,action_account_add,2020-09-27 21:47:17,10216,accounts,14
+  8,action_called_account_remove,2020-09-27 21:47:17,10216,accounts,15
+  8,action_account_remove,2020-09-27 21:47:17,1000,accounts,16
+  9,action_account_add,2020-09-27 21:47:17,10216,accounts,17
+  9,action_called_account_remove,2020-09-27 21:49:22,10216,accounts,18
+  9,action_account_remove,2020-09-27 21:49:22,1000,accounts,19
+  10,action_account_add,2020-09-27 21:49:22,10216,accounts,20
+  10,action_called_account_remove,2020-09-27 21:49:24,10216,accounts,21
+  10,action_account_remove,2020-09-27 21:49:24,1000,accounts,22
+  11,action_account_add,2020-09-27 21:49:24,10216,accounts,23
+  12,action_account_add,2020-09-27 21:54:15,10232,accounts,24
+  13,action_account_add,2020-09-28 03:25:54,10069,accounts,25
+  13,action_called_account_remove,2020-09-28 08:21:24,10069,accounts,26
+  13,action_account_remove,2020-09-28 08:21:24,10069,accounts,27
+  14,action_account_add,2021-01-09 19:02:41,10223,accounts,28
+  -1,action_called_account_add,2021-01-13 16:18:07,0,accounts,29
+  15,action_account_add,2021-01-27 11:29:39,10080,accounts,30
+  -1,action_called_account_add,2021-01-28 07:45:24,10182,accounts,31
+  16,action_account_add,2021-01-28 07:46:29,10174,accounts,32
+  16,action_set_password,2021-01-28 07:46:29,10174,accounts,33
+  -1,action_called_account_add,2021-01-28 07:47:19,10184,accounts,34
+  11,action_authenticator_remove,2021-04-21 14:13:10,1000,accounts,35
+  17,action_account_add,2021-06-22 04:00:40,10069,accounts,36
+  12,action_authenticator_remove,2021-09-16 17:43:29,1000,accounts,37
+  -1,action_sync_de_ce_accounts,2021-09-16 17:43:58,1000,accounts,38
+  18,action_account_add,2021-09-16 17:56:19,10232,accounts,39
+  18,action_authenticator_remove,2021-10-22 09:27:01,1000,accounts,40
+  -1,action_sync_de_ce_accounts,2021-10-22 09:27:50,1000,accounts,41
+  19,action_account_add,2021-10-24 19:08:58,10232,accounts,42
+  -1,action_called_account_add,2021-12-26 10:57:23,10313,accounts,43
+  -1,action_called_account_add,2021-12-26 11:10:29,10174,accounts,44
+  16,action_called_account_remove,2022-01-22 07:35:10,1000,accounts,45
+  16,action_account_remove,2022-01-22 07:35:10,10174,accounts,46
+  20,action_account_add,2022-03-22 17:28:17,10323,accounts,47
+  -1,action_called_account_add,2022-08-06 19:54:00,10185,accounts,48
+  -1,action_called_account_add,2022-08-06 19:55:02,10185,accounts,49
+  -1,action_called_account_add,2022-08-17 07:31:59,10185,accounts,50
+  -1,action_called_account_add,2022-08-17 07:32:45,10185,accounts,51
+  -1,action_called_account_add,2022-09-18 14:48:13,10185,accounts,52
+  -1,action_called_account_add,2022-09-27 22:20:45,10174,accounts,53
+  
+  Active Sessions: 0
+  
+  RegisteredServicesCache: 22 services
+    ServiceInfo: AuthenticatorDescription {type=com.whatsapp}, ComponentInfo{com.whatsapp/com.whatsapp.accountsync.AccountAuthenticatorService}, uid 10232
+    ServiceInfo: AuthenticatorDescription {type=com.google.android.gm.pop3}, ComponentInfo{com.google.android.gm/com.android.email.service.Pop3AuthenticatorService}, uid 10184
+    ServiceInfo: AuthenticatorDescription {type=com.adobe.creativesdk.foundation.auth.adobeID.DC}, ComponentInfo{com.adobe.reader/com.adobe.creativesdk.foundation.internal.auth.authenticator.AdobeCSDKAdobeIDAuthenticatorServiceDC}, uid 10503
+    ServiceInfo: AuthenticatorDescription {type=com.google}, ComponentInfo{com.google.android.gms/com.google.android.gms.auth.account.authenticator.GoogleAccountAuthenticatorService}, uid 10174
+    ServiceInfo: AuthenticatorDescription {type=com.google.android.apps.tachyon}, ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.contacts.sync.DuoAccountService}, uid 10180
+    ServiceInfo: AuthenticatorDescription {type=us.zoom.videomeetings}, ComponentInfo{us.zoom.videomeetings/com.zipow.videobox.AuthenticatorService}, uid 10211
+    ServiceInfo: AuthenticatorDescription {type=com.microsoft.office}, ComponentInfo{com.microsoft.office.word/com.microsoft.office.msohttp.keystore.OfficeAuthenticationService}, uid 10196
+    ServiceInfo: AuthenticatorDescription {type=com.skype.raider}, ComponentInfo{com.skype.raider/com.skype4life.syncadapter.AccountService}, uid 10213
+    ServiceInfo: AuthenticatorDescription {type=com.samsung.android.mobileservice}, ComponentInfo{com.samsung.android.mobileservice/com.samsung.android.mobileservice.social.calendar.presentation.service.background.account.AuthenticatorService}, uid 10069
+    ServiceInfo: AuthenticatorDescription {type=com.google.android.gm.exchange}, ComponentInfo{com.google.android.gm/com.android.email.service.EasAuthenticatorService}, uid 10184
+    ServiceInfo: AuthenticatorDescription {type=com.samsung.android.exchange}, ComponentInfo{com.samsung.android.email.provider/com.samsung.android.email.ui.service.EasAuthenticatorService}, uid 10197
+    ServiceInfo: AuthenticatorDescription {type=com.osp.app.signin}, ComponentInfo{com.osp.app.signin/com.samsung.android.samsungaccount.authentication.service.OspAuthenticationService}, uid 10104
+    ServiceInfo: AuthenticatorDescription {type=com.samsung.android.coreapps}, ComponentInfo{com.samsung.android.mobileservice/com.samsung.android.mobileservice.registration.auth.legacy.presentation.coreapps.AuthenticationService}, uid 10069
+    ServiceInfo: AuthenticatorDescription {type=org.thoughtcrime.securesms}, ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.service.AccountAuthenticatorService}, uid 10223
+    ServiceInfo: AuthenticatorDescription {type=com.samsung.android.email}, ComponentInfo{com.samsung.android.email.provider/com.samsung.android.email.ui.service.PopImapAuthenticatorService}, uid 10197
+    ServiceInfo: AuthenticatorDescription {type=com.samsung.android.ldap}, ComponentInfo{com.samsung.android.email.provider/com.samsung.android.email.ui.service.LdapAuthenticatorService}, uid 10197
+    ServiceInfo: AuthenticatorDescription {type=org.telegram.messenger}, ComponentInfo{org.telegram.messenger/org.telegram.messenger.AuthenticatorService}, uid 10231
+    ServiceInfo: AuthenticatorDescription {type=com.google.android.gm.legacyimap}, ComponentInfo{com.google.android.gm/com.android.email.service.LegacyImapAuthenticatorService}, uid 10184
+    ServiceInfo: AuthenticatorDescription {type=$PACKAGE_NAME.account}, ComponentInfo{br.jus.tse.eleitoral.etitulo/com.marianhello.bgloc.sync.AuthenticatorService}, uid 10208
+    ServiceInfo: AuthenticatorDescription {type=com.microsoft.office.outlook.USER_ACCOUNT}, ComponentInfo{com.microsoft.office.outlook/com.acompli.acompli.contacts.sync.OutlookAuthenticatorService}, uid 10212
+    ServiceInfo: AuthenticatorDescription {type=com.piriform}, ComponentInfo{com.piriform.ccleaner/com.avast.android.ffl2.account.AuthenticatorService}, uid 10323
+    ServiceInfo: AuthenticatorDescription {type=com.microsoft.skydrive}, ComponentInfo{com.microsoft.skydrive/com.microsoft.authorization.AuthenticationService}, uid 10080
+  
