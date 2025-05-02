@@ -1,4 +1,4 @@
-https://blog.salvationdata.com/2020/06/05/case-study-mobile-forensics-forensic-data-extraction-from-android-devices-using-adb-android-debug-bridge-part-ii/
+https://blog.salvationdata.com/2020/06/05/case-study-mobile-forensics-forensic-data-extraction-from-android-devices-using-adb-android-debug-bridge-part-ii/.
 
 https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30163/29971
 
