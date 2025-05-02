@@ -107,7 +107,7 @@ export default defineComponent({
       { name: 'action', field: 'action', label: 'Link/APP', sortable: true, align: 'left' },
       { name: 'link', field: 'link', label: 'Ação', sortable: true, align: 'left' },
       {
-        name: 'inicialTime ',
+        name: 'inicialTime',
         field: 'inicialTime',
         label: 'Tempo incial',
         sortable: true,
