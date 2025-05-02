@@ -2,7 +2,7 @@
 
 ## 🎓 Sobre o Projeto
 
-O **Log Forensic** é um projeto desenvolvido como parte do meu **Trabalho de Conclusão de Curso (TCC)**. Ele foi pensado para ser uma base de estudo para outros alunos que estejam desenvolvendo projetos acadêmicos ou que desejam aprender mais sobre desenvolvimento front-end e back-end.
+O **Log Forensic** é um projeto desenvolvido no âmbito da minha pesquisa em Iniciação Científica, Estágio Obrigatório e Trabalho de Conclusão de Curso (TCC), focado na análise de logs de dispositivos móveis para reconstrução de eventos.**. Ele foi pensado para ser uma base de estudo para outros alunos que estejam desenvolvendo projetos acadêmicos ou que desejam aprender mais sobre desenvolvimento front-end e back-end.
 
 O repositório apresenta:
 - Um projeto **front-end** na pasta `app-log`.
