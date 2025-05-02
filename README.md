@@ -2,8 +2,9 @@
 
 ## 🎓 Sobre o Projeto
 
-O **Log Forensic** é um projeto desenvolvido no âmbito da minha pesquisa em Iniciação Científica, Estágio Obrigatório e Trabalho de Conclusão de Curso (TCC), focado na análise de logs de dispositivos móveis para reconstrução de eventos. Ele foi pensado para ser uma base de estudo para outros alunos que estejam desenvolvendo projetos acadêmicos ou que desejam aprender mais sobre desenvolvimento front-end e back-end.
+O Log Forensic é um projeto desenvolvido no âmbito da minha pesquisa em Iniciação Científica, Estágio Obrigatório e Trabalho de Conclusão de Curso (TCC), focado na análise de logs de dispositivos móveis para reconstrução de eventos.
 
+Este projeto foi baseado e adaptado a partir do repositório original criado por Guitee, sendo estendido e personalizado para fins acadêmicos. Ele foi pensado como uma base de estudo para outros alunos que estejam desenvolvendo projetos acadêmicos ou que desejam aprender mais sobre desenvolvimento front-end e back-end.
 O repositório apresenta:
 - Um projeto **front-end** na pasta `app-log`.
 - Um projeto **back-end** utilizando a biblioteca [JSON Server](https://www.npmjs.com/package/json-server).
