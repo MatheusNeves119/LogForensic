@@ -104,8 +104,15 @@ export default defineComponent({
     // Definição das colunas  
     const columns = [
       { name: 'id', field: 'id', label: 'ID', sortable: true, align: 'left' },
-      { name: 'action', field: 'action', label: 'Link/APP', sortable: true, align: 'left' },
-      { name: 'link', field: 'link', label: 'Ação', sortable: true, align: 'left' },
+      { name: 'action', field: 'action', label: 'Ação', sortable: true, align: 'left' },
+      { 
+        name: 'link',
+        field: 'link',
+        label: 'Link/APP',
+        sortable: true,
+        align: 'left' ,
+        format: (val) => formatarTipoAcao(val),
+      },
       {
         name: 'inicialTime',
         field: 'inicialTime',
@@ -186,6 +193,40 @@ export default defineComponent({
       } else {
         // Se não houver intervalo de datas, exibe todas as contas
         filteredAccounts.value = [...fingerPrints.value]
+      }
+    }
+
+    function formatarTipoAcao(tipoAcao) {
+      if (tipoAcao) {
+        switch (tipoAcao) {
+          case 'com.samsung.android.biometrics.app.setting':
+            return 'Aplicativo de configurações biométricas da Samsung.'
+          case 'client':
+            return 'Ação iniciada diretamente pelo usuário (client)'
+          case 'com.android.systemui':
+            return 'Interface do sistema(Barra de Status)'
+          case 'br.com.bb.android':
+            return 'Banco do Brasil'
+          case 'com.santander.app':
+            return 'Banco Santander'
+          case 'br.jus.tse.eleitoral.etitulo':
+            return 'Aplicativo e-Título(TSE)'
+          case 'br.com.serasaexperian.consumidor':
+            return 'APP Serasa'
+          case 'com.caixa.app':
+            return 'Banco Caixa Econômica Federal'
+          case 'com.bradesco.app':
+            return 'Banco Bradesco'
+          case 'com.whatszapp.app':
+            return'App WhatsApp'
+          case 'com.inter.app':
+            return'Banco Inter'
+
+          default:
+            return 'Ação não identificada'
+        }
+      } else {
+        return 'Ação não identificada'
       }
     }
 
