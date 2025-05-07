@@ -485,481 +485,10 @@
         "uid":"10174",
         "tableName":"accounts",
         "key":"53"
-    }],
-    "alarm": [
-        {
-            "id": "0",
-            "action": "Matricular",
-            "link": "com.samsung.android.biometrics.app.setting",
-            "inicialTime": "2015-11-11 19:27:16",
-            "finalTime": "2015-11-11 19:27:52",
-            "response": "Sucesso"
-        },
-        {
-            "id": "1",
-            "action": "remove",
-            "link": "client",
-            "inicialTime": "2015-11-11 19:27:06",
-            "finalTime": "2015-11-11 19:27:06",
-            "response": "null"
-        },
-        {
-            "id": "1",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 18:35:19",
-            "finalTime": "2015-11-15 18:35:27",
-            "response": "Atualizado"
-          },
-          {
-            "id": "2",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 18:35:52",
-            "finalTime": "2015-11-15 18:35:56",
-            "response": "Modificar"
-          },
-          {
-            "id": "3",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:16:25",
-            "finalTime": "2015-11-15 19:16:28",
-            "response": "Modificar"
-          },
-          {
-            "id": "4",
-            "action": "Ativar",
-            "link": "br.com.bb.android",
-            "inicialTime": "2015-11-15 19:16:34",
-            "finalTime": "2015-11-15 19:16:36",
-            "response": "Modificar"
-          },
-          {
-            "id": "5",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:16:49",
-            "finalTime": "2015-11-15 19:16:50",
-            "response": "Modificar"
-          },
-          {
-            "id": "6",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:17:40",
-            "finalTime": "2015-11-15 19:17:49",
-            "response": "Modificar"
-          },
-          {
-            "id": "7",
-            "action": "Atualizado",
-            "link": "com.santander.app",
-            "inicialTime": "2015-11-15 19:17:55",
-            "finalTime": "2015-11-15 19:17:57",
-            "response": "Atualizado"
-          },
-          {
-            "id": "8",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:25:03",
-            "finalTime": "2015-11-15 19:25:41",
-            "response": "N"
-          },
-          {
-            "id": "9",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:25:03",
-            "finalTime": "2015-11-15 19:25:45",
-            "response": "Modificar"
-          },
-          {
-            "id": "10",
-            "action": "Remover",
-            "link": "client",
-            "inicialTime": "2015-11-15 19:27:06",
-            "finalTime": "2015-11-15 19:27:06",
-            "response": "null"
-          },
-          {
-            "id": "11",
-            "action": "Matricular",
-            "link": "com.samsung.android.biometrics.app.setting",
-            "inicialTime": "2015-11-15 19:27:16",
-            "finalTime": "2015-11-15 19:27:52",
-            "response": "Sucesso"
-          },
-          {
-            "id": "12",
-            "action": "Atualizado",
-            "link": "br.jus.tse.eleitoral.etitulo",
-            "inicialTime": "2015-11-15 19:39:34",
-            "finalTime": "2015-11-15 19:39:37",
-            "response": "Modificar"
-          },
-          {
-            "id": "13",
-            "action": "Atualizado",
-            "link": "br.com.serasaexperian.consumidor",
-            "inicialTime": "2015-11-15 19:41:24",
-            "finalTime": "2015-11-15 19:41:25",
-            "response": "Modificar"
-          },
-          {
-            "id": "14",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:44:02",
-            "finalTime": "2015-11-15 19:49:03",
-            "response": "Modificar"
-          },
-          {
-            "id": "15",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 20:38:06",
-            "finalTime": "2015-11-15 20:55:59",
-            "response": "Modificar"
-          },
-          {
-            "id": "16",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 20:57:20",
-            "finalTime": "2015-11-15 20:58:36",
-            "response": "Modificar"
-          },
-          {
-            "id": "17",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 20:59:10",
-            "finalTime": "2015-11-15 21:01:07",
-            "response": "Modificar"
-          },
-          {
-            "id": "18",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 21:01:26",
-            "finalTime": "2015-11-15 21:04:08",
-            "response": "Modificar"
-          },
-          {
-            "id": "19",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 21:05:12",
-            "finalTime": "2015-11-15 21:08:50",
-            "response": "Modificar"
-          },
-          {
-            "id": "20",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 21:28:19",
-            "finalTime": "2015-11-15 21:28:21",
-            "response": "Modificar"
-          },
-          {
-            "id": "21",
-            "action": "Modificar",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-15 10:10:00",
-            "finalTime": "2023-07-15 10:12:00",
-            "response": "Sucesso"
-        },
-        {
-            "id": "22",
-            "action": "Atualizar",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-15 11:11:11",
-            "finalTime": "2023-07-15 11:13:11",
-            "response": "Sucesso"
-        },
-        {
-            "id": "23",
-            "action": "Remover",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-15 12:12:12",
-            "finalTime": "2023-07-15 12:14:12",
-            "response": "Sucesso"
-        },
-        {
-            "id": "24",
-            "action": "Matricular",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-15 13:13:13",
-            "finalTime": "2023-07-15 13:15:13",
-            "response": "Sucesso"
-        },
-        {
-            "id": "25",
-            "action": "Ativar",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-16 14:14:14",
-            "finalTime": "2023-07-16 14:16:14",
-            "response": "Atualizado"
-        },
-        {
-            "id": "26",
-            "action": "Modificar",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-16 15:15:15",
-            "finalTime": "2023-07-16 15:17:15",
-            "response": "Atualizado"
-        },
-        {
-            "id": "27",
-            "action": "Atualizar",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-16 16:16:16",
-            "finalTime": "2023-07-16 16:18:16",
-            "response": "Atualizado"
-        },
-        {
-            "id": "28",
-            "action": "Remover",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-16 17:17:17",
-            "finalTime": "2023-07-16 17:19:17",
-            "response": "Atualizado"
-        },
-        {
-            "id": "29",
-            "action": "Matricular",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-17 18:18:18",
-            "finalTime": "2023-07-17 18:20:18",
-            "response": "Atualizado"
-        },
-        {
-            "id": "30",
-            "action": "Ativar",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-17 19:19:19",
-            "finalTime": "2023-07-17 19:21:19",
-            "response": "Atualizado"
-        },
-        {
-            "id": "31",
-            "action": "Modificar",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-17 20:20:20",
-            "finalTime": "2023-07-17 20:22:20",
-            "response": "Atualizado"
-        },
-        {
-            "id": "32",
-            "action": "Atualizar",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-17 21:21:21",
-            "finalTime": "2023-07-17 21:23:21",
-            "response": "Atualizado"
-        },
-        {
-            "id": "33",
-            "action": "Remover",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-18 22:22:22",
-            "finalTime": "2023-07-18 22:24:22",
-            "response": "Atualizado"
-        },
-        {
-            "id": "34",
-            "action": "Matricular",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-18 23:23:23",
-            "finalTime": "2023-07-18 23:25:23",
-            "response": "Atualizado"
-        },
-        {
-            "id": "35",
-            "action": "Ativar",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-19 00:00:00",
-            "finalTime": "2023-07-19 00:02:00",
-            "response": "Atualizado"
-        },
-        {
-            "id": "36",
-            "action": "Modificar",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-19 01:01:01",
-            "finalTime": "2023-07-19 01:03:01",
-            "response": "Atualizado"
-        },
-        {
-            "id": "37",
-            "action": "Atualizar",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-19 02:02:02",
-            "finalTime": "2023-07-19 02:04:02",
-            "response": "Atualizado"
-        },
-        {
-            "id": "38",
-            "action": "Remover",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-19 03:03:03",
-            "finalTime": "2023-07-19 03:05:03",
-            "response": "Atualizado"
-        },
-        {
-            "id": "39",
-            "action": "Matricular",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-19 04:04:04",
-            "finalTime": "2023-07-19 04:06:04",
-            "response": "Atualizado"
-        },
-        {
-            "id": "40",
-            "action": "Ativar",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-19 05:05:05",
-            "finalTime": "2023-07-19 05:07:05",
-            "response": "Atualizado"
-        },
-        {
-            "id": "41",
-            "action": "Modificar",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-19 06:06:06",
-            "finalTime": "2023-07-19 06:08:06",
-            "response": "Atualizado"
-        },
-        {
-            "id": "42",
-            "action": "Atualizar",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-19 07:07:07",
-            "finalTime": "2023-07-19 07:09:07",
-            "response": "Atualizado"
-        },
-        {
-            "id": "43",
-            "action": "Remover",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-19 08:08:08",
-            "finalTime": "2023-07-19 08:10:08",
-            "response": "Atualizado"
-        },
-        {
-            "id": "44",
-            "action": "Matricular",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-19 09:09:09",
-            "finalTime": "2023-07-19 09:11:09",
-            "response": "Atualizado"
-        },
-        {
-            "id": "45",
-            "action": "Ativar",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-19 10:10:10",
-            "finalTime": "2023-07-19 10:12:10",
-            "response": "Atualizado"
-        },
-        {
-            "id": "46",
-            "action": "Modificar",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-19 11:11:11",
-            "finalTime": "2023-07-19 11:13:11",
-            "response": "Atualizado"
-        },
-        {
-            "id": "47",
-            "action": "Atualizar",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-19 12:12:12",
-            "finalTime": "2023-07-19 12:14:12",
-            "response": "Atualizado"
         }
     ],
+    
     "biometrics": [
-        { 
-            "id": "0",
-            "link": "com.santander.app",
-            "inicialTime": "2015-11-11 19:17:55",
-            "finalTime": "2015-11-11 19:17:57",
-            "trys": 3,
-            "response": "D"
-        },
-        { 
-            "id": "1",
-            "link": "br.jus.tse.eleitoral.etitulo",
-            "inicialTime": "2015-11-15 19:39:34", 
-            "finalTime": "2015-11-15 19:39:37",
-            "trys": 4, "response": "D" 
-        },
-        {
-             "id": "2",
-             "link": "br.com.serasaexperian.consumidor",
-             "inicialTime": "2015-11-15 19:41:24",
-             "finalTime": "2015-11-15 19:41:25",
-             "trys": 4, "response": "D" 
-        },
-        { 
-            "id": "3",
-            "link": "com.santander.app",
-            "inicialTime": "2015-11-16 12:05:22",
-            "finalTime": "2015-11-16 12:05:25",
-            "trys": 4,
-            "response":"D"
-        },
-        { 
-            "id": "4",
-            "link": "com.santander.app",
-            "inicialTime": "2015-11-16 17:28:49",
-            "finalTime": "2015-11-16 17:28:53",
-            "trys": 5,
-            "response": "E" 
-        },
-        { 
-            "id": "5",
-            "link": "com.santander.app",
-            "inicialTime": "2015-11-16 17:31:21",
-            "finalTime": "2015-11-16 17:31:24",
-            "trys": 4, "response": "D" 
-        }, 
-        { 
-            "id": "6",
-            "link": "br.jus.tse.eleitoral.etitulo",
-            "inicialTime": "2015-11-17 08:05:04",
-            "finalTime": "2015-11-17 08:05:12",
-            "trys": 4,
-            "response": "D" 
-        },
-        { 
-            "id": "7",
-            "link": "com.santander.app",
-            "inicialTime": "2015-11-18 15:23:38",
-            "finalTime": "2015-11-18 15:23:40",
-            "trys": 4,
-            "response": "D"
-        },
-        { 
-            "id": "8",
-            "link": "br.com.santander.way",
-            "inicialTime": "2015-11-20 19:26:04",
-            "finalTime": "2015-11-20 19:26:06",
-            "trys": 4, 
-            "response": "D" 
-        },
-        {
-            "id": "9", 
-            "link": "br.com.santander.way", 
-            "inicialTime": "2015-11-21 19:47:39", 
-            "finalTime": "2015-11-21 19:47:47", 
-            "trys": 3, 
-            "response": "D"
-         }
-    ],
-    "bluetooth": [
         { 
             "id": "0",
             "link": "com.santander.app",
@@ -1432,398 +961,342 @@
             "response": "Atualizado"
         }
     ],
-    "location": [
+    "Power": [
         {
-            "id": "0",
-            "action": "Matricular",
-            "link": "com.samsung.android.biometrics.app.setting",
-            "inicialTime": "2015-11-11 19:27:16",
-            "finalTime": "2015-11-11 19:27:52",
-            "response": "Sucesso"
+          "id": "1",
+          "timestamp": "2023-11-15 18:35:52.154",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "1",
-            "action": "remove",
-            "link": "client",
-            "inicialTime": "2015-11-11 19:27:06",
-            "finalTime": "2015-11-11 19:27:06",
-            "response": "null"
+          "id": "2",
+          "timestamp": "2023-11-15 18:35:56.839",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_FINGERPRINT",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "1",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 18:35:19",
-            "finalTime": "2015-11-15 18:35:27",
-            "response": "Atualizado"
-          },
-          {
-            "id": "2",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 18:35:52",
-            "finalTime": "2015-11-15 18:35:56",
-            "response": "Modificar"
-          },
-          {
-            "id": "3",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:16:25",
-            "finalTime": "2015-11-15 19:16:28",
-            "response": "Modificar"
-          },
-          {
-            "id": "4",
-            "action": "Ativar",
-            "link": "br.com.bb.android",
-            "inicialTime": "2015-11-15 19:16:34",
-            "finalTime": "2015-11-15 19:16:36",
-            "response": "Modificar"
-          },
-          {
-            "id": "5",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:16:49",
-            "finalTime": "2015-11-15 19:16:50",
-            "response": "Modificar"
-          },
-          {
-            "id": "6",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:17:40",
-            "finalTime": "2015-11-15 19:17:49",
-            "response": "Modificar"
-          },
-          {
-            "id": "7",
-            "action": "Atualizado",
-            "link": "com.santander.app",
-            "inicialTime": "2015-11-15 19:17:55",
-            "finalTime": "2015-11-15 19:17:57",
-            "response": "Atualizado"
-          },
-          {
-            "id": "8",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:25:03",
-            "finalTime": "2015-11-15 19:25:41",
-            "response": "N"
-          },
-          {
-            "id": "9",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:25:03",
-            "finalTime": "2015-11-15 19:25:45",
-            "response": "Modificar"
-          },
-          {
-            "id": "10",
-            "action": "Remover",
-            "link": "client",
-            "inicialTime": "2015-11-15 19:27:06",
-            "finalTime": "2015-11-15 19:27:06",
-            "response": "null"
-          },
-          {
-            "id": "11",
-            "action": "Matricular",
-            "link": "com.samsung.android.biometrics.app.setting",
-            "inicialTime": "2015-11-15 19:27:16",
-            "finalTime": "2015-11-15 19:27:52",
-            "response": "Sucesso"
-          },
-          {
-            "id": "12",
-            "action": "Atualizado",
-            "link": "br.jus.tse.eleitoral.etitulo",
-            "inicialTime": "2015-11-15 19:39:34",
-            "finalTime": "2015-11-15 19:39:37",
-            "response": "Modificar"
-          },
-          {
-            "id": "13",
-            "action": "Atualizado",
-            "link": "br.com.serasaexperian.consumidor",
-            "inicialTime": "2015-11-15 19:41:24",
-            "finalTime": "2015-11-15 19:41:25",
-            "response": "Modificar"
-          },
-          {
-            "id": "14",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 19:44:02",
-            "finalTime": "2015-11-15 19:49:03",
-            "response": "Modificar"
-          },
-          {
-            "id": "15",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 20:38:06",
-            "finalTime": "2015-11-15 20:55:59",
-            "response": "Modificar"
-          },
-          {
-            "id": "16",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 20:57:20",
-            "finalTime": "2015-11-15 20:58:36",
-            "response": "Modificar"
-          },
-          {
-            "id": "17",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 20:59:10",
-            "finalTime": "2015-11-15 21:01:07",
-            "response": "Modificar"
-          },
-          {
-            "id": "18",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 21:01:26",
-            "finalTime": "2015-11-15 21:04:08",
-            "response": "Modificar"
-          },
-          {
-            "id": "19",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 21:05:12",
-            "finalTime": "2015-11-15 21:08:50",
-            "response": "Modificar"
-          },
-          {
-            "id": "20",
-            "action": "Ativar",
-            "link": "com.android.systemui",
-            "inicialTime": "2015-11-15 21:28:19",
-            "finalTime": "2015-11-15 21:28:21",
-            "response": "Modificar"
-          },
-          {
-            "id": "21",
-            "action": "Modificar",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-15 10:10:00",
-            "finalTime": "2023-07-15 10:12:00",
-            "response": "Sucesso"
+          "id": "3",
+          "timestamp": "2023-11-15 19:16:25.686",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "br.com.bb.android"
         },
         {
-            "id": "22",
-            "action": "Atualizar",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-15 11:11:11",
-            "finalTime": "2023-07-15 11:13:11",
-            "response": "Sucesso"
+          "id": "4",
+          "timestamp": "2023-11-15 19:16:28.041",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_FINGERPRINT",
+          "app": "br.com.bb.android"
         },
         {
-            "id": "23",
-            "action": "Remover",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-15 12:12:12",
-            "finalTime": "2023-07-15 12:14:12",
-            "response": "Sucesso"
+          "id": "5",
+          "timestamp": "2023-11-15 19:16:49.223",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "br.com.bb.android"
         },
         {
-            "id": "24",
-            "action": "Matricular",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-15 13:13:13",
-            "finalTime": "2023-07-15 13:15:13",
-            "response": "Sucesso"
+          "id": "6",
+          "timestamp": "2023-11-15 19:16:50.869",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_FINGERPRINT",
+          "app": "br.com.bb.android"
         },
         {
-            "id": "25",
-            "action": "Ativar",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-16 14:14:14",
-            "finalTime": "2023-07-16 14:16:14",
-            "response": "Atualizado"
+          "id": "7",
+          "timestamp": "2023-11-15 19:17:40.017",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "com.santander.app"
         },
         {
-            "id": "26",
-            "action": "Modificar",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-16 15:15:15",
-            "finalTime": "2023-07-16 15:17:15",
-            "response": "Atualizado"
+          "id": "8",
+          "timestamp": "2023-11-15 19:17:49.733",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_FINGERPRINT",
+          "app": "com.santander.app"
         },
         {
-            "id": "27",
-            "action": "Atualizar",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-16 16:16:16",
-            "finalTime": "2023-07-16 16:18:16",
-            "response": "Atualizado"
+          "id": "9",
+          "timestamp": "2023-11-15 19:25:03.319",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "com.whatsapp"
         },
         {
-            "id": "28",
-            "action": "Remover",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-16 17:17:17",
-            "finalTime": "2023-07-16 17:19:17",
-            "response": "Atualizado"
+          "id": "10",
+          "timestamp": "2023-11-15 19:25:44.301",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_POWER_BUTTON",
+          "app": "com.whatsapp"
         },
         {
-            "id": "29",
-            "action": "Matricular",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-17 18:18:18",
-            "finalTime": "2023-07-17 18:20:18",
-            "response": "Atualizado"
+          "id": "11",
+          "timestamp": "2023-11-15 19:44:02.790",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "30",
-            "action": "Ativar",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-17 19:19:19",
-            "finalTime": "2023-07-17 19:21:19",
-            "response": "Atualizado"
+          "id": "12",
+          "timestamp": "2023-11-15 19:49:03.906",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_FINGERPRINT",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "31",
-            "action": "Modificar",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-17 20:20:20",
-            "finalTime": "2023-07-17 20:22:20",
-            "response": "Atualizado"
+          "id": "13",
+          "timestamp": "2023-11-15 20:38:05.816",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "32",
-            "action": "Atualizar",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-17 21:21:21",
-            "finalTime": "2023-07-17 21:23:21",
-            "response": "Atualizado"
+          "id": "14",
+          "timestamp": "2023-11-15 20:55:59.151",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_FINGERPRINT",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "33",
-            "action": "Remover",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-18 22:22:22",
-            "finalTime": "2023-07-18 22:24:22",
-            "response": "Atualizado"
+          "id": "15",
+          "timestamp": "2023-11-15 20:57:20.036",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "34",
-            "action": "Matricular",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-18 23:23:23",
-            "finalTime": "2023-07-18 23:25:23",
-            "response": "Atualizado"
+          "id": "16",
+          "timestamp": "2023-11-15 20:58:36.548",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_FINGERPRINT",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "35",
-            "action": "Ativar",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-19 00:00:00",
-            "finalTime": "2023-07-19 00:02:00",
-            "response": "Atualizado"
+          "id": "17",
+          "timestamp": "2023-11-15 20:59:10.773",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "com.microsoft.office.outlook"
         },
         {
-            "id": "36",
-            "action": "Modificar",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-19 01:01:01",
-            "finalTime": "2023-07-19 01:03:01",
-            "response": "Atualizado"
+          "id": "18",
+          "timestamp": "2023-11-15 20:59:46.924",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_DOUBLE_TAP",
+          "app": "com.microsoft.office.outlook"
         },
         {
-            "id": "37",
-            "action": "Atualizar",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-19 02:02:02",
-            "finalTime": "2023-07-19 02:04:02",
-            "response": "Atualizado"
+          "id": "19",
+          "timestamp": "2023-11-15 20:59:53.892",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "com.microsoft.office.outlook"
         },
         {
-            "id": "38",
-            "action": "Remover",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-19 03:03:03",
-            "finalTime": "2023-07-19 03:05:03",
-            "response": "Atualizado"
+          "id": "20",
+          "timestamp": "2023-11-15 21:01:07.531",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_FINGERPRINT",
+          "app": "com.microsoft.office.outlook"
         },
         {
-            "id": "39",
-            "action": "Matricular",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-19 04:04:04",
-            "finalTime": "2023-07-19 04:06:04",
-            "response": "Atualizado"
+          "id": "21",
+          "timestamp": "2023-11-15 21:01:26.729",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "40",
-            "action": "Ativar",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-19 05:05:05",
-            "finalTime": "2023-07-19 05:07:05",
-            "response": "Atualizado"
+          "id": "22",
+          "timestamp": "2023-11-15 21:04:08.565",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_FINGERPRINT",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "41",
-            "action": "Modificar",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-19 06:06:06",
-            "finalTime": "2023-07-19 06:08:06",
-            "response": "Atualizado"
+          "id": "23",
+          "timestamp": "2023-11-15 21:05:12.670",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "42",
-            "action": "Atualizar",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-19 07:07:07",
-            "finalTime": "2023-07-19 07:09:07",
-            "response": "Atualizado"
+          "id": "24",
+          "timestamp": "2023-11-15 21:08:32.060",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_DOUBLE_TAP",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "43",
-            "action": "Remover",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-19 08:08:08",
-            "finalTime": "2023-07-19 08:10:08",
-            "response": "Atualizado"
+          "id": "25",
+          "timestamp": "2023-11-15 21:08:38.358",
+          "screenState": "OFF",
+          "wakeReason": "timeout",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "44",
-            "action": "Matricular",
-            "link": "com.inter.app",
-            "inicialTime": "2023-07-19 09:09:09",
-            "finalTime": "2023-07-19 09:11:09",
-            "response": "Atualizado"
+          "id": "26",
+          "timestamp": "2023-11-15 21:08:50.607",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_FINGERPRINT",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "45",
-            "action": "Ativar",
-            "link": "com.caixa.app",
-            "inicialTime": "2023-07-19 10:10:10",
-            "finalTime": "2023-07-19 10:12:10",
-            "response": "Atualizado"
+          "id": "27",
+          "timestamp": "2023-11-15 21:28:19.391",
+          "screenState": "OFF",
+          "wakeReason": "power_button",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "46",
-            "action": "Modificar",
-            "link": "com.bradesco.app",
-            "inicialTime": "2023-07-19 11:11:11",
-            "finalTime": "2023-07-19 11:13:11",
-            "response": "Atualizado"
+          "id": "28",
+          "timestamp": "2023-11-15 21:28:21.984",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_FINGERPRINT",
+          "app": "com.sec.android.app.launcher"
         },
         {
-            "id": "47",
-            "action": "Atualizar",
-            "link": "com.whatszapp.app",
-            "inicialTime": "2023-07-19 12:12:12",
-            "finalTime": "2023-07-19 12:14:12",
-            "response": "Atualizado"
+          "id": "29",
+          "timestamp": "2023-11-15 23:07:13.208",
+          "screenState": "OFF",
+          "wakeReason": "power_button",
+          "app": "com.samsung.android.messaging"
+        },
+        {
+          "id": "30",
+          "timestamp": "2023-11-15 23:07:15.029",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_POWER_BUTTON",
+          "app": "com.samsung.android.messaging"
+        },
+        {
+          "id": "31",
+          "timestamp": "2023-11-15 23:08:29.970",
+          "screenState": "OFF",
+          "wakeReason": "power_button",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "32",
+          "timestamp": "2023-11-15 23:08:32.711",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_POWER_BUTTON",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "33",
+          "timestamp": "2023-11-15 23:08:34.090",
+          "screenState": "OFF",
+          "wakeReason": "power_button",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "34",
+          "timestamp": "2023-11-15 23:08:37.965",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_POWER_BUTTON",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "35",
+          "timestamp": "2023-11-15 23:10:14.690",
+          "screenState": "OFF",
+          "wakeReason": "power_button",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "36",
+          "timestamp": "2023-11-15 23:10:17.417",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_POWER_BUTTON",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "37",
+          "timestamp": "2023-11-15 23:10:21.020",
+          "screenState": "OFF",
+          "wakeReason": "power_button",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "38",
+          "timestamp": "2023-11-15 23:10:21.654",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_POWER_BUTTON",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "39",
+          "timestamp": "2023-11-15 23:11:06.651",
+          "screenState": "OFF",
+          "wakeReason": "power_button",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "40",
+          "timestamp": "2023-11-15 23:11:07.420",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_POWER_BUTTON",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "41",
+          "timestamp": "2023-11-15 23:11:14.760",
+          "screenState": "OFF",
+          "wakeReason": "power_button",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "42",
+          "timestamp": "2023-11-15 23:11:15.559",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_POWER_BUTTON",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "43",
+          "timestamp": "2023-11-15 23:11:33.454",
+          "screenState": "OFF",
+          "wakeReason": "power_button",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "44",
+          "timestamp": "2023-11-15 23:11:34.304",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_POWER_BUTTON",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "45",
+          "timestamp": "2023-11-15 23:11:41.354",
+          "screenState": "OFF",
+          "wakeReason": "power_button",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "46",
+          "timestamp": "2023-11-15 23:11:43.680",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_POWER_BUTTON",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "47",
+          "timestamp": "2023-11-15 23:11:54.776",
+          "screenState": "OFF",
+          "wakeReason": "power_button",
+          "app": "com.sec.android.app.launcher"
+        },
+        {
+          "id": "48",
+          "timestamp": "2023-11-15 23:11:55.517",
+          "screenState": "ON",
+          "wakeReason": "WAKE_REASON_POWER_BUTTON",
+          "app": "com.sec.android.app.launcher"
         }
-    ]
+      ]
 }
