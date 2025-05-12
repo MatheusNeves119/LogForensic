@@ -73,7 +73,7 @@ const linksList = [
     title: 'Energia',
     caption: '',
     icon: 'power',
-    route: { name: 'fingerPrint' },
+    route: { name: 'energia' },
   },
   {
     title: 'Info Banco',
@@ -102,7 +102,7 @@ const linksList = [
   {
     title: 'Telefone',
     caption: '',
-    icon: 'power',
+    icon: 'phone_android',
     route: { name: 'fingerPrint' },
   },
   {

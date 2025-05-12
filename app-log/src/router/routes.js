@@ -6,6 +6,7 @@ const routes = [
       { path: '', name: 'account', component: () => import('pages/IndexPage.vue') },
       { path: '', name: 'biometric', component: () => import('pages/BiometricPage.vue') },
       { path: '', name: 'impressaodigital', component:() =>import('pages/FingerPrintPage.vue')},
+      { path: '', name: 'energia', component:() =>import('pages/PowerPage.vue')},
     ],
   },
 
