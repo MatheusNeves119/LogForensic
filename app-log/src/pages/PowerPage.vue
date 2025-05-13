@@ -6,7 +6,7 @@
         flat
         bordered
         title="Eventos de Energia"
-        :rows="filteredPowerLogs"
+        :rows="filteredAccounts"
         :columns="columns"
         row-key="index"
         virtual-scroll
@@ -67,14 +67,14 @@
 
         <template v-slot:body-cell-actions="props">
           <q-td :props="props">
-            <q-btn icon="edit" color="blue" dense size="sm" @click="updatePowerLog(props.row.id)" />
+            <q-btn icon="edit" color="blue" dense size="sm" @click="updateAccount(props.row.id)" />
             <q-btn
               style="margin-left: 8px"
               icon="delete"
               color="negative"
               dense
               size="sm"
-              @click="removePowerLog(props.row.id)"
+              @click="removeAccount(props.row.id)"
             />
           </q-td>
         </template>
@@ -94,44 +94,61 @@ export default defineComponent({
   name: 'PowerPage',
 
   setup() {
-    const powerLogs = ref([])
-    const filteredPowerLogs = ref([])
+    const Power = ref([])
+    const filteredAccounts = ref([])
     const time = ref('')
     const timeWithSeconds = ref('')
     const filter = ref('')
     const pagination = ref({ rowsPerPage: 10 })
 
     const columns = [
-      { name: 'id', field: 'id', label: 'ID', sortable: true, align: 'left' },
-      { name: 'action', field: 'action', label: 'Ação', sortable: true, align: 'left' },
+      { name: 'id',
+        field: 'id',
+        label: 'ID',
+        sortable: true,
+        align: 'left' 
+      },
+      { name: 'action',
+        field: 'wakeReason',
+        label: 'Ação',
+        sortable: true,
+        align: 'left' 
+      },
       {
         name: 'inicialTime',
-        field: 'inicialTime',
-        label: 'Tempo Inicial',
+        field: 'timestamp',
+        label: 'Data',
         sortable: true,
         align: 'left',
         format: (val) => formatarDataColuna(val),
+      },
+      { 
+        name: 'link',
+        field: 'app',
+        label: 'Link/APP',
+        sortable: true,
+        align: 'left' ,
       },
       {
-        name: 'finalTime',
-        field: 'finalTime',
-        label: 'Tempo Final',
+        name: 'Estado da Tela',
+        field:'screenState',
+        label:'Tela',
         sortable: true,
-        align: 'left',
-        format: (val) => formatarDataColuna(val),
+        align:'left',
       },
-      { name: 'actions', field: 'actions', label: 'Ações', align: 'right' },
     ]
 
     onMounted(() => {
-      getPowerLogs()
+      getAccounts()
+      filteredAccounts.value = Power.value
     })
 
-    const getPowerLogs = async () => {
+
+    const getAccounts = async () => {
       try {
-        const response = await api.get('powerLogs') // ajuste se for outro endpoint, tipo 'power'
-        powerLogs.value = response.data
-        filteredPowerLogs.value = [...powerLogs.value]
+        const response = await api.get('Power') 
+        Power.value = response.data
+        filteredAccounts.value = [...Power.value]
       } catch (error) {
         console.error(error)
       }
@@ -163,18 +180,18 @@ export default defineComponent({
         timInicial.setHours(0, 0, 0, 0)
         timFinal.setHours(23, 59, 59, 999)
 
-        filteredPowerLogs.value = powerLogs.value.filter((log) => {
+        filteredAccounts.value = Power.value.filter((log) => {
           const logDate = new Date(log.inicialTime)
           return logDate >= timInicial && logDate <= timFinal
         })
       } else {
-        filteredPowerLogs.value = [...powerLogs.value]
+        filteredAccounts.value = [...Power.value]
       }
     }
 
     return {
-      powerLogs,
-      filteredPowerLogs,
+      Power,
+      filteredAccounts,
       pagination,
       columns,
       filter,
