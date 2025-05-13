@@ -1,0 +1,7 @@
+cd C:\Users\User\Desktop\TCC-main\api-server
+npm start
+json-server --watch db.json --port 3000
+
+
+cd C:\Users\User\Desktop\TCC-main\app-log
+quasar dev

@@ -82,4 +82,6 @@ User UserInfo{0:Jorge Ramos de Figueiredo:c13}:
     ServiceInfo: AuthenticatorDescription {type=com.microsoft.office.outlook.USER_ACCOUNT}, ComponentInfo{com.microsoft.office.outlook/com.acompli.acompli.contacts.sync.OutlookAuthenticatorService}, uid 10212
     ServiceInfo: AuthenticatorDescription {type=com.piriform}, ComponentInfo{com.piriform.ccleaner/com.avast.android.ffl2.account.AuthenticatorService}, uid 10323
     ServiceInfo: AuthenticatorDescription {type=com.microsoft.skydrive}, ComponentInfo{com.microsoft.skydrive/com.microsoft.authorization.AuthenticationService}, uid 10080
+
+    .
   
