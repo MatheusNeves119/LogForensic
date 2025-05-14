@@ -112,7 +112,8 @@ export default defineComponent({
         field: 'wakeReason',
         label: 'Ação',
         sortable: true,
-        align: 'left' 
+        align: 'left',
+        format: (val) => formatarTipoAcao(val),
       },
       {
         name: 'inicialTime',
@@ -128,6 +129,7 @@ export default defineComponent({
         label: 'Link/APP',
         sortable: true,
         align: 'left' ,
+        format: (val) => formatarTipoAPP(val),
       },
       {
         name: 'Estado da Tela',
@@ -186,6 +188,71 @@ export default defineComponent({
         })
       } else {
         filteredAccounts.value = [...Power.value]
+      }
+    }
+
+    function formatarTipoAPP(TipoAPP) {
+      if (TipoAPP) {
+        switch (TipoAPP) {
+          case 'com.samsung.android.biometrics.app.setting':
+            return 'Aplicativo de configurações biométricas da Samsung.'
+          case 'client':
+            return 'Ação iniciada diretamente pelo usuário (client)'
+          case 'com.android.systemui':
+            return 'Interface do sistema(Barra de Status)'
+          case 'br.com.bb.android':
+            return 'Banco do Brasil'
+          case 'com.santander.app':
+            return 'Banco Santander'
+          case 'br.jus.tse.eleitoral.etitulo':
+            return 'Aplicativo e-Título(TSE)'
+          case 'br.com.serasaexperian.consumidor':
+            return 'APP Serasa'
+          case 'com.caixa.app':
+            return 'Banco Caixa Econômica Federal'
+          case 'com.bradesco.app':
+            return 'Banco Bradesco'
+          case 'com.whatszapp.app':
+            return'App WhatsApp'
+          case 'com.inter.app':
+            return'Banco Inter'
+          case 'com.sec.android.app.launcher':
+            return 'Tela Inicial Do Aparelho'
+          case 'com.whatsapp':
+            return'App WhatsApp'
+          case 'com.microsoft.office.outlook':
+            return 'Outlook'
+          case 'com.samsung.android.messaging':
+            return 'Samsung Messages'
+
+          default:
+            return 'Ação não identificada'
+        }
+      } else {
+        return 'Ação não identificada'
+      }
+    }
+
+    function formatarTipoAcao(tipoAcao) {
+      if (tipoAcao) {
+        switch (tipoAcao) {
+          case 'WAKE_REASON_FINGERPRINT':
+            return 'Tela Ligada Pela impressão digital.'
+          case 'timeout':
+            return 'Tela desligada pelo sistema'
+          case 'WAKE_REASON_POWER_BUTTON':
+            return 'Tela iniciada Pelo Botão de energia(Power)'
+          case 'WAKE_REASON_DOUBLE_TAP':
+            return 'Tela ligada por toque duplo no Display'
+          case 'power_button':
+            return 'Tela desligada Pelo Botão de energia(Power)'
+            
+
+          default:
+            return 'Ação não identificada'
+        }
+      } else {
+        return 'Ação não identificada'
       }
     }
 
