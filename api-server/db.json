@@ -1023,14 +1023,14 @@
           "timestamp": "2023-11-15 19:25:03.319",
           "screenState": "OFF",
           "wakeReason": "timeout",
-          "app": "com.whatsapp"
+          "app": "com.whatszapp.app"
         },
         {
           "id": "10",
           "timestamp": "2023-11-15 19:25:44.301",
           "screenState": "ON",
           "wakeReason": "WAKE_REASON_POWER_BUTTON",
-          "app": "com.whatsapp"
+          "app": "com.whatszapp.app"
         },
         {
           "id": "11",
